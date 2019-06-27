@@ -1,11 +1,12 @@
 import React from "react";
 import Home from './components/Home'
-import { AppRegistry, StyleSheet, View, Text, Image,ActivityIndicator } from "react-native";
+import './App.css'
+import { AppRegistry, StyleSheet, View, Text, Image } from "react-native";
 
 function App() {
   return (
-    <View style = {{backgroundColor:'black'}}>
-      <Image source={require("./logo.svg")} style ={styles.imageStyle}/>
+    <View className = 'container'>
+      <Image source={require("./logo.svg")} className = 'imageLogo' style ={styles.imageStyle}/>
       <Text style={styles.container}>React Native is working!</Text>
       {/* <ActivityIndicator /> */}
       <Home />
