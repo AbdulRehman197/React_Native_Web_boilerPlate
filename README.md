@@ -1,3 +1,5 @@
-#Quick Start
-##npm Install
-##npm start
+Quick Start
+
+npm Install
+
+npm start
