@@ -5,7 +5,7 @@
   "main": "./App.js",
   "dependencies": {
     "customize-cra": "^0.2.14",
-    "expo-cli": "^2.20.10",
+    "expo-cli": "^6.0.8",
     "g": "^2.0.1",
     "native-base": "^2.12.1",
     "react": "^16.8.6",
